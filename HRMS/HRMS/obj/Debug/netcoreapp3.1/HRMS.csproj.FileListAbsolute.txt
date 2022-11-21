@@ -396,3 +396,5 @@ C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\HRMS.dll
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\HRMS.pdb
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\HRMS.genruntimeconfig.cache
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Login\LoginPage.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Employee\AddEmployee.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\DashBoard\Index.cshtml.g.cs
