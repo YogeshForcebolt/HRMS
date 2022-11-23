@@ -19,13 +19,10 @@ namespace HRMS.Models
 
         public string EmpFathersName { get; set; }
 
-
         public string EmpMothersName { get; set; }
 
-        [Phone]
-        [RegularExpression(@"([7-9][0-9]{9})", ErrorMessage = "plz Enter Valid Mobile Number")]
         public long EmpMobilenumber { get; set; }
-        [EmailAddress]
+      
         public string  EmpEmail { get; set; }
 
         public string EmpMartialStatus { get; set; }

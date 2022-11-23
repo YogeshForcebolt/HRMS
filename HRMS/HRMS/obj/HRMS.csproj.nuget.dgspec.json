@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FB\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj": {}
+    "C:\\Users\\FB\\OneDrive\\Desktop\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FB\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj": {
+    "C:\\Users\\FB\\OneDrive\\Desktop\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FB\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj",
+        "projectUniqueName": "C:\\Users\\FB\\OneDrive\\Desktop\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj",
         "projectName": "HRMS",
-        "projectPath": "C:\\Users\\FB\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj",
+        "projectPath": "C:\\Users\\FB\\OneDrive\\Desktop\\project\\HRMS\\HRMS\\HRMS\\HRMS.csproj",
         "packagesPath": "C:\\Users\\FB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FB\\project\\HRMS\\HRMS\\HRMS\\obj\\",
+        "outputPath": "C:\\Users\\FB\\OneDrive\\Desktop\\project\\HRMS\\HRMS\\HRMS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
