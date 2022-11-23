@@ -398,3 +398,15 @@ C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\HRMS.genruntimeconfig
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Login\LoginPage.cshtml.g.cs
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Employee\AddEmployee.cshtml.g.cs
 C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\DashBoard\Index.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Employee\RegistrationError.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Thanks.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\Employee\UpdateEmployee.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\obj\Debug\netcoreapp3.1\Razor\Views\DashBoard\Profile.cshtml.g.cs
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\FB\project\HRMS\HRMS\HRMS\bin\Debug\netcoreapp3.1\Nancy.dll

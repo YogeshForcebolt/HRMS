@@ -12,5 +12,10 @@ namespace HRMS.Controllers
         {
             return View();
         }
+
+        public IActionResult profile()
+        {
+            return View();
+        }
     }
 }
