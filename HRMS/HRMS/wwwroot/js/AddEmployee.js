@@ -16,7 +16,8 @@ function showTab(n) {
         document.getElementById("prevBtn").style.display = "inline";
     }
     if (n == (x.length - 1)) {
-        document.getElementById("nextBtn").innerHTML = "Submit";
+        document.getElementById("nextBtn").hidden = true;
+        document.getElementById("tab3").hidden =false;
     } else {
         document.getElementById("nextBtn").innerHTML = "Next";
     }
