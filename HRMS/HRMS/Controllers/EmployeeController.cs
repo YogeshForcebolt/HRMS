@@ -23,17 +23,17 @@ namespace HRMS.Controllers
         {
             var eid = new Repository(configuration);
             string id = eid.GetEmployeeId();
-           
-            return View("AddEmployee",id);
+
+            return View("AddEmployee", id);
         }
 
         [HttpPost]
-        public IActionResult AddEmployee(EmployeeDetails employeeDetail,  EmployeeProfessionalDeatils employeeProfessionalDeatil, EmployeeEmergencyDetails employeeEmergencyDetail )
+        public IActionResult AddEmployee(EmployeeDetails employeeDetail, EmployeeProfessionalDeatils employeeProfessionalDeatil, EmployeeEmergencyDetails employeeEmergencyDetail)
         {
 
             var eid = new Repository(configuration);
-        //    eid.GetEmployeeId();
-          //  var json = JsinC.Serialize(employeeFormModel);
+            //    eid.GetEmployeeId();
+            //  var json = JsinC.Serialize(employeeFormModel);
             if (ModelState.IsValid)
             {
                 var formData = new EmployeeFormModel
@@ -44,9 +44,9 @@ namespace HRMS.Controllers
                 };
 
                 var jsonData = JsonConvert.SerializeObject(formData);
-               bool insert = eid.AddEmployee(jsonData);
+                bool insert = eid.AddEmployee(jsonData);
                 if (insert == true)
-                    return View("Thanks",employeeDetail);
+                    return View("Thanks", employeeDetail);
                 else
                     return View("RegistrationError");
             }
@@ -55,10 +55,39 @@ namespace HRMS.Controllers
         }
 
 
-        public IActionResult UpdateEmployee()
+        public IActionResult ShowEmployee()
+        {
+            var eid = new Repository(configuration);
+            List<EmployeeDetails> list = eid.GetAllEmployee();
+
+            return View("ShowEmployee", list);
+
+        }
+
+        //public IActionResult ShowEmployee(String str)
+        //{
+        //    //string connectionString = configuration["ConnectionStrings:DefaultConnection"];
+        //    //con = new SqlConnection(connectionString);
+        //    //con.Open();
+        //    //int x = Repositery.Deleteproduct(id, con);
+        //    //if (x > 0)
+        //    //{
+        //    //    productList = Repositery.GetAllProduct(con);
+        //    //    return Content("deleted" + " " + productList.Count);
+        //    //}
+        //    //else
+        //    //    return Content("deleted");
+        //    //return View();
+        //}
+
+        public IActionResult UpdateEmployee(string id)
         {
             return View();
         }
 
+        public IActionResult DeleteEmployee(string id)
+        {
+            return View();
+        }
     }
 }

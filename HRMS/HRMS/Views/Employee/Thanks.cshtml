@@ -4,12 +4,66 @@
 @{
     Layout = "_Layout";
 }
-
 @model EmployeeDetails
-<h1>Employee successfully Added</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Forms / Elements - NiceAdmin Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
 
-<h2>Employee Id:- @Model.EmpId</h2>
-<h2>Employe Name:- @Model.EmpFullName</h2>
-<h2>login EmailId:- @Model.EmpEmail</h2>
-<h2>login Password:- @Model.EmpPassword</h2>
+    <!-- Template Main CSS File -->
+    <link href="~/css/AddEmployee.css" rel="stylesheet" />
+    <script src="~/js/AddEmployee.js"></script>
+    <!-- =======================================================
+    * Template Name: NiceAdmin - v2.4.1
+    * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+<body>
+
+    <main id="main" class="main">
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-12 ">
+                    <form id="regForm" class="gradient-custom">
+                        <h1 id="register" style="font-size: 300%; text-shadow: 2px 2px 8px #FF0000;"><b>Employee Resigester Suceesfully</b></h1>
+
+                        <div class="row">
+                            <div class="col bx-font-size"><b>Employee Id</b></div>
+                            <div class="col"><b>@Model.EmpId"</b></div>
+                            <div class="w-100"></div>
+                            <div class="col bx-font-size"><b>Employee Name</b></div>
+                            <div class="col"><b>@Model.EmpFullName</b></div>
+                            <div class="w-100"></div>
+                            <div class="col bx-font-size"><b>Employee EmailId</b></div>
+                            <div class="col"><b>@Model.EmpEmail</b></div>
+                            <div class="w-100"></div>
+                            <div class="col bx-font-size"><b>Employee password</b></div>
+                            <div class="col"><b>@Model.EmpPassword</b></div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
