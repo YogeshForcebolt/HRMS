@@ -38,7 +38,7 @@
 </head>
 
 <body>
-
+    <main>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
 
@@ -88,7 +88,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <a class="dropdown-item d-flex align-items-center" asp-action="profile" asp-controller="DashBoard">
                                 <i class="bi bi-person"></i>
                                 <span>My Profile</span>
                             </a>
@@ -118,7 +118,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
+                            <a class="dropdown-item d-flex align-items-center" asp-action="LoginPage" asp-controller="Login">
                                 <i class="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </a>
@@ -152,9 +152,7 @@
                         <a >
                             <i class="bi bi-circle"></i><span>Alerts</span>
                         </a>
-                    </li>
-                   
-                   
+                    </li>       
                 </ul>
             </li><!-- End Components Nav -->
 
@@ -163,12 +161,13 @@
                     <i class="bi bi-journal-text"></i><span>Organisation</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
                 <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    
                     <li>
-                        <a asp-controller="Employee" asp-action="AddEmployee">
-                            <i class="bi bi-circle"></i><span>Add Employee</span>
+                        <a >
+                            <i class="bi bi-circle"></i><span>Sumary</span>
                         </a>
                     </li>
-                    
+                   
                 </ul>
             </li><!-- End Forms Nav -->
 
@@ -182,7 +181,6 @@
                             <i class="bi bi-circle"></i><span> Summary</span>
                         </a>
                     </li>
-                  
                 </ul>
             </li><!-- End Tables Nav -->
 
@@ -207,13 +205,40 @@
                         </a>
                     </li>
                 </ul>
-            </li><!-- End Charts Nav -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#chart-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-bar-chart"></i><span>Employee Management</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="chart-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-controller="Employee" asp-action="AddEmployee">
+                            <i class="bi bi-circle"></i><span>Add Employee</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="Employee" asp-action="UpdateEmployee">
+                            <i class="bi bi-circle"></i><span>Update Employee Details</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="bi bi-circle"></i><span>Delete Employee</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="bi bi-circle"></i><span>show Employee</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+    <!-- End Charts Nav -->
+        </ul>
     </aside><!-- End Sidebar-->
 
-            </div>
-        </section>
 
-        <div class="container">
+        <div class="">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
